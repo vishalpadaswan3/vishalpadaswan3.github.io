@@ -25,3 +25,20 @@ links.forEach(link => {
         target.scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+let append_onebyone = document.getElementById("append_onebyone");
+
+
+let arr = ["Problem Solver ", "Coder", "Developer", "Designer", "Learner", "Innovator"];
+function appendonebyone5secIntervelTime(arr) {
+    var i = 0;
+    var interval = setInterval(function () {
+        append_onebyone.innerHTML = arr[i];
+        i++;
+        if (i >= arr.length) {
+            i = 0;
+        }
+    }, 5000);
+}
+
+appendonebyone5secIntervelTime(arr);
