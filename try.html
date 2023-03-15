@@ -1,25 +1,487 @@
-[Name] is a versatile backend developer with a passion for building complex, scalable systems that solve real-world problems. [He/She/They] has a proven track record of delivering high-quality software solutions that meet and exceed client expectations, and is skilled in a variety of programming languages and database technologies.
+<!DOCTYPE html>
+<html>
 
-With a deep understanding of backend architecture and infrastructure, [Name] is proficient in designing and implementing APIs, integrating with third-party services, and optimizing server performance. [He/She/They] is also experienced in building microservices, containerizing applications with Docker, and deploying to cloud platforms such as AWS and Google Cloud.
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        /* set global styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-[Name]'s expertise in database technologies such as MySQL, PostgreSQL, and MongoDB enables [him/her/them] to design efficient, optimized database schemas, implement complex data structures, and ensure data integrity and security.
+        body {
+            font-family: Arial, sans-serif;
+        }
 
-[Name] is a lifelong learner who is always seeking new challenges and opportunities to grow [his/her/their] skills. [He/She/They] is committed to staying up-to-date with the latest industry trends and best practices, and is passionate about mentoring junior developers and sharing [his/her/their] knowledge with the community.
+        /* style the navbar */
+        #nav-menu {
+            background-color: #222;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
 
-In addition to [his/her/their] technical expertise, [Name] is an effective communicator who is able to collaborate with cross-functional teams, explain technical concepts to non-technical stakeholders, and provide leadership and guidance to development teams. [He/She/They] is dedicated to creating software solutions that drive business success and positively impact people's lives.
+        #nav-menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
 
+        #nav-menu a:hover {
+            text-decoration: underline;
+        }
 
----------------------------------------------------------------------------------
+        /* style the home section */
+        #home {
+            background-color: #eee;
+            text-align: center;
+            padding: 100px 0;
+        }
 
+        .home-img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
 
+        /* style the about section */
+        .about {
+            background-color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
 
-[Name] is a problem solver who is always looking for new ways to improve the performance and scalability of [his/her/their] systems. [He/She/They] has a strong foundation in database technologies such as MongoDB, Redis, and MySQL, and is skilled in designing efficient, optimized database schemas.
+        #user-detail-name {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
 
-[Name] is a team player who thrives in a collaborative, agile development environment. [He/She/They] is dedicated to delivering high-quality software solutions on time and on budget, and is committed to staying up-to-date with the latest industry trends and best practices.
+        #user-detail-intro {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
 
-In addition to [his/her/their] technical expertise, [Name] is an effective communicator who is able to explain complex technical concepts in clear, concise language. [He/She/They] is passionate about using technology to solve real-world problems and create meaningful impact.
+        /* style the skills section */
+        #skills {
+            background-color: #eee;
+            text-align: center;
+            padding: 100px 0;
+        }
 
+        .skills-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+            width: 200px;
+        }
 
+        .skills-card-img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
 
+        .skills-card-name {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
 
+        /* style the projects section */
+        #projects {
+            background-color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
 
+        .project-card {
+            background-color: #eee;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+            width: 300px;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .project-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .project-description {
+            margin-bottom: 10px;
+        }
+
+        .project-tech-stack {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .project-github-link,
+        .project-deployed-link {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* style the contact section */
+        #contact {
+            background-color: #eee;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        #contact ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #contact li {
+            margin: 10px 0;
+        }
+
+        #contact a {
+            display: inline-block;
+            background-color: #fff;
+            color: #222;
+            padding: 10px
+        }
+
+        /* Navbar styling */
+        #nav-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            background-color: #fff;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-link {
+            color: #555;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin-right: 1rem;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .nav-link:hover {
+            color: #007bff;
+        }
+
+        .home-img {
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            margin: 2rem;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Section styling */
+        .section {
+            padding: 5rem 0;
+        }
+
+        .about {
+            background-color: #f5f5f5;
+        }
+
+        /* Heading styling */
+        .heading {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Button styling */
+        .button {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 1.2rem;
+            margin-right: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .button:hover {
+            background-color: #0062cc;
+        }
+
+        /* Project card styling */
+        .project-card {
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin: 1rem;
+        }
+
+        .project-description {
+            margin: 1rem;
+        }
+
+        .project-tech-stack {
+            font-style: italic;
+            margin: 1rem;
+        }
+
+        .project-github-link,
+        .project-deployed-link {
+            display: block;
+            margin: 1rem;
+        }
+
+        /* Skills card styling */
+        .skills-card {
+            display: flex;
+            align-items: center;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .skills-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .skills-card-img {
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+            margin: 1rem;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .skills-card-name {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin: 1rem;
+        }
+
+        /* GitHub stats styling */
+        .github-stats {
+            display: flex;
+            justify-content: space-between;
+            margin: 3rem 0;
+        }
+
+        /* Skills section */
+
+        #skills {
+            background-color: #f7f7f7;
+            padding: 80px 0;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skills-card {
+            width: 280px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .skills-card-img {
+            height: 160px;
+            background-color: #f2f2f2;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .skills-card-name {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+            margin: 20px;
+        }
+
+        /* Contact section */
+
+        #contact {
+            background-color: #333;
+            padding: 80px 0;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .contact-icon {
+            font-size: 48px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .contact-link {
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer section */
+
+        #footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-text {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .footer-link {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .footer-link:hover {
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="#home" class="nav-link home">Home</a></li>
+            <li><a href="#about" class="nav-link about">About</a></li>
+            <li><a href="#skills" class="nav-link skills">Skills</a></li>
+            <li><a href="#projects" class="nav-link projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link contact">Contact</a></li>
+            <li><a href="my-resume.pdf" target="_blank" class="nav-link resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <img src="my-photo.jpg" alt="My photo" class="home-img">
+        <h1 id="user-detail-name">John Doe</h1>
+        <p id="user-detail-intro">Web Developer</p>
+        <a href="my-resume.pdf" target="_blank" id="resume-link-2"><button id="resume-button-2">Download
+                Resume</button></a>
+    </section>
+
+    <section id="about" class="about section">
+        <h2>About Me</h2>
+        <p>Some information about me...</p>
+        <a href="my-resume.pdf" target="_blank" id="resume-link-2"><button id="resume-button-2">Download
+                Resume</button></a>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-card">
+            <img src="skill1.jpg" alt="Skill 1" class="skills-card-img">
+            <h3 class="skills-card-name">Skill 1</h3>
+        </div>
+        <div class="skills-card">
+            <img src="skill2.jpg" alt="Skill 2" class="skills-card-img">
+            <h3 class="skills-card-name">Skill 2</h3>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="project1.jpg" alt="Project 1">
+            <h3 class="project-title">Project 1</h3>
+            <p class="project-description">Description of project 1...</p>
+            <p class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</p>
+            <a href="https://github.com/myusername/myproject1" target="_blank" class="project-github-link">GitHub
+                Repository</a>
+            <a href="https://www.youtube.com/watch?v=video-id" target="_blank" class="project-deployed-link">Demo
+                Video</a>
+        </div>
+        <div class="project-card">
+            <img src="project2.jpg" alt="Project 2">
+            <h3 class="project-title">Project 2</h3>
+            <p class="project-description">Description of project 2...</p>
+            <p class="project-tech-stack">Tech stack used: React, Node.js, MongoDB</p>
+            <a href="https://github.com/myusername/myproject2
+    	<section id=" projects">
+                <h2>Projects</h2>
+                <div class="project-card">
+                    <img src="path/to/project/image.jpg" alt="Project image">
+                    <h3 class="project-title">Project Title</h3>
+                    <p class="project-description">Project description goes here.</p>
+                    <p class="project-tech-stack">Tech stack used: HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/username/project" class="project-github-link">GitHub repository</a>
+                    <a href="https://project-demo-link.com" class="project-deployed-link">Demo</a>
+                </div>
+                <!-- add more project cards as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li><a href="https://github.com/username" id="contact-github">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/username" id="contact-linkedin">LinkedIn</a></li>
+            <li><a href="tel:1234567890" id="contact-phone">123-456-7890</a></li>
+            <li><a href="mailto:email@example.com" id="contact-email">email@example.com</a></li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <button id="resume-button-1">View Resume (PDF)</button>
+    </section>
+
+    <!-- add necessary scripts here -->
+</body>
+
+</html>
