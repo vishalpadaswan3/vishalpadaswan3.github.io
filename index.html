@@ -35,8 +35,8 @@
                 <li><a href="#projects" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
                 <li class="nav-link resume" id="resume-button-1"> <a id="resume-link-1"
-                        href="https://drive.google.com/file/d/15CTVzRjLYV5Wz-K3_MbijdmL2joEGZO3/view?usp=share_link"
-                        download="Vishal_Padaswan_Resume.pdf" target="_blank" class="menu-btn">Resume</a></li>
+                        href="./Vishal_Padaswan_Resume.pdf"
+                        download="Vishal_Padaswan_Resume" target="_blank" class="menu-btn">Resume</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -51,7 +51,8 @@
                 <div class="text-1">Hello, I'm a </div>
                 <div class="text-2" id="meansdone">Full Stack Developer <i id="shyam"
                         class="fa-sharp fa-solid fa-graduation-cap"></i></div>
-                <a href="https://drive.google.com/file/d/15CTVzRjLYV5Wz-K3_MbijdmL2joEGZO3/view?usp=share_link" download="Vishal_Padaswan_Resume.pdf" id="resume-button-2" target="_blank">Resume</a>
+                <a href="./Vishal_Padaswan_Resume.pdf" download="Vishal_Padaswan_Resume" 
+                    id="resume-button-2" target="_blank">Resume</a>
                 <!-- </div> -->
             </div>
     </section>
@@ -425,6 +426,17 @@
 
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "vishalpadaswan3", { responsive: true });
+    
+    let res = document.getElementById("resume-link-1")
+    res.addEventListener("click",()=>{
+        // window.location.assign("https://drive.google.com/file/d/15CTVzRjLYV5Wz-K3_MbijdmL2joEGZO3/view?usp=share_link")
+        window.open('https://drive.google.com/file/d/15CTVzRjLYV5Wz-K3_MbijdmL2joEGZO3/view?usp=share_link', '_blank');
+    })
+
+    let res2 = document.getElementById("resume-button-2")
+    res2.addEventListener("click",()=>{
+        window.open('https://drive.google.com/file/d/15CTVzRjLYV5Wz-K3_MbijdmL2joEGZO3/view?usp=share_link', '_blank');
+    })
 
     // Use a proxy
     // GitHubCalendar(".calendar", "your-username", {
