@@ -282,7 +282,7 @@ section .title::after {
 .about {
 
   /* background-image: url("https://i.pinimg.com/originals/d2/17/b0/d217b080b8f1e5891aef556d82e724b8.jpg"); */
-  background-color: #CFD8DC;
+  background-color: #888;
   background-size: cover;
 
   background-attachment: fixed;
@@ -822,6 +822,10 @@ p img {
 /* .contact .title::after {
     content: "Get In Touch";
   } */
+
+#contact {
+ background-color: floralwhite;
+}
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
