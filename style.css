@@ -557,7 +557,8 @@ section .title::after {
   } */
 /* ------------------------------------------------------------------------------------------------project */
 .project {
-  background-color: rgb(222, 219, 219);
+  /* background-color: rgb(222, 219, 219); */
+  background-color: #888;
   color: #000000;
 }
 
@@ -582,16 +583,18 @@ section .title::after {
   padding: 20px;
 
 }
+
 .card1:hover {
   background-color: goldenrod;
   cursor: pointer;
 }
-.card1 img  {
+
+.card1 img {
   width: 70%;
   height: 50%;
   margin-left: 58px;
   border-radius: 30px;
-  
+
 }
 
 .card1 img:hover {
@@ -611,7 +614,7 @@ section .title::after {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.projecttech{
+.project-tech-stack {
   font-size: 16px;
   font-weight: 550;
   margin-bottom: 10px;
@@ -620,7 +623,7 @@ section .title::after {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.repo_project {
+.project-github-link {
   font-size: 14px;
   padding: 10px;
   border-radius: 10px;
@@ -630,18 +633,21 @@ section .title::after {
 
 }
 
-.golive_project {
+.project-deployed-link {
   font-size: 14px;
   padding: 10px;
   border-radius: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: goldenrod;
 }
-.repo_project:hover, .golive_project:hover {
+
+.project-github-link:hover,
+.project-deployed-link:hover {
   background-color: #000;
   color: #fff;
   cursor: pointer;
 }
+
 .project_name_down {
   padding: 10px;
   background: transparent;
@@ -653,9 +659,158 @@ section .title::after {
 }
 
 
+@media screen and (max-width: 977px) and (min-width: 768px) {
+  .projectall {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card1 {
+    width: 70%;
+    margin: 0px 0px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .card1 img {
+    width: 90%;
+    height: 60%;
+    margin-left: 38px;
+    border-radius: 30px;
+  }
+
+  .project-github-link {
+    margin-left: 0;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 10%;
+  }
+  .project-deployed-link {
+    margin-left: 0;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 25%;
+  }
+
+  .project_name_down {
+    font-size: 12px;
+    margin-left: 20%;
+  }
+
+  .projectDetails {
+    font-size: 12px;
+  }
+
+  .project-tech-stack {
+    font-size: 12px;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 380px) {
+  .projectall {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card1 {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .card1 img {
+    width: 90%;
+    height: 60%;
+    margin-left: 38px;
+    border-radius: 30px;
+  }
+
+  .project-github-link {
+    margin-left: 0;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 20%;
+  }
+  .project-deployed-link{
+    margin-left: 0;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 10%;
+  }
+  .project_name_down {
+    font-size: 12px;
+    margin-left: 10%;
+  }
+
+  .projectDetails {
+    font-size: 12px;
+  }
+
+  .project-tech-stack {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .projectall {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card1 {
+    width: 100%;
+  }
+  .card1 img {
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    margin-left: 0;
+  }
+
+  .project-github-link {
+    margin-left: 0;
+    font-size: 10px;
+    padding: 3px;
+    margin-left: 20%;
+  }
+  .project-deployed-link{
+    margin-left: 0;
+    font-size: 10px;
+    padding: 3px;
+    margin-left: 10%;
+  }
+  .project_name_down {
+    font-size: 10px;
+    margin-left: 10%;
+  }
+
+  .projectDetails {
+    font-size: 10px;
+  }
+
+  .project-tech-stack {
+    font-size: 8px;
+  }
+
+}
+  
+
+
+
 .github-statics {
   background-color: #000;
   color: #fff;
+}
+
+.react-activity-calendar {
+  /* background-color: goldenrod; */
+  background-color: #888;
+}
+
+p img {
+  margin-left: 10px;
 }
 
 /* .github-statics { */
@@ -812,6 +967,7 @@ footer span a:hover {
   .max-width {
     padding: 0 50px;
   }
+
 }
 
 @media (max-width: 947px) {
