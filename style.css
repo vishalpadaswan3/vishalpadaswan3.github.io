@@ -152,13 +152,13 @@ section .title::after {
   border-radius: 20px;
 }
 
-#button_hire {
+#resume-button-2 {
   background-color: goldenrod;
   border: none;
   color: black;
 }
 
-#button_hire:hover {
+#resume-button-2:hover {
   background-color: #151201;
   color: goldenrod;
 }
