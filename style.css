@@ -25,7 +25,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #cec8c8;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -164,7 +164,7 @@ section .title::after {
 }
 
 #shyam {
-  color: rgb(159, 150, 150);
+  color: rgb(255, 255, 255);
 }
 
 #shyam:hover {
@@ -282,7 +282,7 @@ section .title::after {
 .about {
 
   /* background-image: url("https://i.pinimg.com/originals/d2/17/b0/d217b080b8f1e5891aef556d82e724b8.jpg"); */
-  background-color: #CFD8DC;
+  background-color: #cec8c8;
   background-size: cover;
 
   background-attachment: fixed;
@@ -558,7 +558,7 @@ section .title::after {
 /* ------------------------------------------------------------------------------------------------project */
 .project {
   /* background-color: rgb(222, 219, 219); */
-  background-color: #888;
+  background-color: #cec8c8;
   color: #000000;
 }
 
@@ -806,7 +806,7 @@ section .title::after {
 
 .react-activity-calendar {
   /* background-color: goldenrod; */
-  background-color: #888;
+  background-color: #cec8c8;
 }
 
 p img {
@@ -822,6 +822,10 @@ p img {
 /* .contact .title::after {
     content: "Get In Touch";
   } */
+
+#contact {
+ background-color: floralwhite;
+}
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
@@ -1107,3 +1111,4 @@ footer span a:hover {
     line-height: 38px;
   }
 }
+
