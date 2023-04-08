@@ -1110,5 +1110,22 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+
+  #github-stats-card,#github-streak-stats,#github-top-langs {
+    width: 100%;
+  }
 }
 
+/* @media (min-width: 412px) {
+  .github-statics {
+    width: 412px;
+  }
+  .github-statics p img {
+    width: 100%;
+  }
+
+  .shyamhere {
+    width: 412px;
+  }
+
+} */
