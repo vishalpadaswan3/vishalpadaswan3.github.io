@@ -249,7 +249,7 @@ formcontact.addEventListener('submit', function (e) {
 
   submit.innerText = 'Sending...';
 
-  fetch('http://localhost:3000/sendmail', {
+  fetch('https://shy-ruby-zebra-tutu.cyclic.app/sendmail', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
