@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Vishal Padaswan Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Vishal Padaswan - Senior Software Engineer specializing in Python, AI/ML, FastAPI, Odoo ERP development. 3+ years experience building enterprise solutions and AI-powered applications." name="description">
+  <meta content="Vishal Padaswan, Senior Software Engineer, Python Developer, AI ML Engineer, FastAPI, Odoo Developer, Full Stack Developer, React.js, AWS, Azure OpenAI" name="keywords">
 
   <!-- Favicons -->
   <link
@@ -21,15 +21,22 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
+  <!-- Preload critical resources -->
+  <link rel="preload" href="assets/css/style.css" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+  <!-- External stylesheets with async loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" />
 
 
   <!-- Template Main CSS File -->
@@ -70,10 +77,10 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="hero-title mb-4">VISHAL PADASWAN <span class="material-symbols-outlined">
-              school
+              code
             </span></h1>
           <p class="hero-subtitle">I am <span class="typed"
-              data-typed-items="Web Designer,UI Developer, Full Stack Developer, Nodejs Developer, Learner, Problem Solver"></span>
+              data-typed-items="Senior Software Engineer, Full Stack Python Developer, AI/ML Engineer, FastAPI Developer, Odoo Developer, Problem Solver"></span>
           </p>
           <a href="#contact"><button class="hiremetop">Hire me</button></a>
           <a href="./Vishal_Padaswan_Resume.pdf" id="myreshere2" download="Vishal_Padaswan_Resume" target="_blank"><button
@@ -93,40 +100,65 @@
           <div class="col-sm-12">
             <div class="box-shadow-full">
               <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <!-- <img src="assets/img/up.png" class="img-fluid rounded b-shadow-a" alt=""> -->
+                <div class="col-md-12">
+                  <div class="about-me pt-4">
+                    <div class="title-box-2 text-center">
+                      <h3 class="title-a">
+                        About Me
+                      </h3>
+                      <div class="line-mf"></div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-lg-8 mx-auto">
+                        <div class="professional-summary">
+                          <p class="lead text-center mb-4">
+                            Full Stack Python Developer with 3+ years of experience building AI-powered applications, enterprise ERP solutions, and scalable web platforms. Proficient in Python, FastAPI, Odoo, React.js, AWS, PostgreSQL, Docker, and LLM-based applications.
+                          </p>
+                          
+                          <div class="row mt-5">
+                            <div class="col-md-6">
+                              <h5 class="mb-3">Core Expertise</h5>
+                              <ul class="about-list">
+                                <li><i class="bi bi-check-circle-fill text-success"></i> Scalable AI-powered applications using FastAPI & React.js</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> Enterprise Odoo ERP modules and REST APIs</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> OpenAI & Azure OpenAI integrations</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> RAG pipelines & Speech-to-Text solutions</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> Cross-functional team collaboration with Agile</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> Cloud deployment & infrastructure on AWS/Azure</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> Database design & optimization (PostgreSQL, MongoDB)</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> Microservices architecture & Docker containerization</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> Healthcare compliance & HIPAA data security standards</li>
+                                <li><i class="bi bi-check-circle-fill text-success"></i> Real-time analytics & anomaly detection systems</li>
+                              </ul>
+                            </div>
+                            
+                            <div class="col-md-6">
+                              <h5 class="mb-3">Key Achievements</h5>
+                              <div class="achievement-item">
+                                <h6><i class="bi bi-trophy-fill text-warning"></i> Quarterly Best Developer Award</h6>
+                                <p class="small">Recognized at BrainerHub Solutions for outstanding technical contributions</p>
+                              </div>
+                              
+                              <div class="achievement-item">
+                                <h6><i class="bi bi-star-fill text-warning"></i> 4-Star Academic Excellence</h6>
+                                <p class="small">Outstanding performance and discipline at Masai School</p>
+                              </div>
+                              
+                              <div class="achievement-item">
+                                <h6><i class="bi bi-code-slash text-primary"></i> 5-Star Python Badge</h6>
+                                <p class="small">HackerRank programming proficiency certification</p>
+                              </div>
+                              
+                              <div class="achievement-item">
+                                <h6><i class="bi bi-camera-video-fill text-info"></i> Zoom Marathon Winner</h6>
+                                <p class="small">Consistency and dedication in daily content submissions</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="skill-mf">
-                    <img id="imageabouthere" src="assets/img/up.png" class="img-fluid rounded b-shadow-a" alt="">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      An accomplished full stack web developer with extensive expertise in both front-end and back-end
-                      development. They possess a diverse set of technical skills and demonstrate proficiency in
-                      programming languages. Moreover, they have a strong grasp of various web development frameworks,
-                      libraries, and tools, enabling them to create robust and scalable applications.
-                    </p>
-                    <p class="lead">
-                      One key strength of this developer lies in their comprehensive understanding of the interplay
-                      between different technologies. They possess the ability to seamlessly integrate and deploy
-                      software applications across multiple platforms, ensuring optimal performance and user experience.
-                    </p>
-                    <p class="lead">
-                      Their collaborative nature and effective communication skills make them a valuable asset in any
-                      team. They thrive in agile development environments
-                    </p>
                   </div>
                 </div>
               </div>
@@ -142,7 +174,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
+              <h3 class="title-a" style="color: #E0DDCF;">
                 Skills
               </h3>
               <p class="subtitle-a">
@@ -156,171 +188,119 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+                <span class="ico-circle"><i class="bi bi-code-slash"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
-                <p class="s-description text-center">
-                  Accessibility is an unwavering priority in my designs, ensuring that every user can access and
-                  interact with the website regardless of their abilities or limitations.
+                <h2 class="s-title">Python Development</h2>
+                <p class="s-description text-center ">
+                  Expertise in Python ecosystem including FastAPI, Django, Flask for building scalable backend services, REST APIs, and enterprise applications with high performance.
                 </p>
-                <img id="imagehereshow" src="http://cdn.onlinewebfonts.com/svg/download_5433.png" alt="">
-                <img id="imagehereshow"
-                  src="https://www.pinclipart.com/picdir/big/211-2116571_website-website-logo-png-transparent-background-clipart.png"
-                  alt="">
+                <div class="tech-icons">
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">FastAPI</span>
+                  <span class="tech-badge">Django</span>
+                  <span class="tech-badge">Flask</span>
+                </div>
               </div>
             </div>
           </div>
+          
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+                <span class="ico-circle"><i class="bi bi-robot"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
+                <h2 class="s-title">AI & Machine Learning</h2>
                 <p class="s-description text-center">
-                  Employing the latest web technologies, frameworks, and programming languages, I build scalable and
-                  performant websites that meet the unique needs of clients.
+                  Building AI-powered applications with OpenAI, Azure OpenAI, RAG pipelines, Speech-to-Text solutions, and LLM integrations for intelligent business solutions.
                 </p>
-                <img id="imagehereshow"
-                  src="https://ubielife.com/wp-content/uploads/2017/03/DEVELOPING_ICON_ACTIVE_2400x2400px-1080x1080.png"
-                  alt="">
-                <img id="imagehereshow"
-                  src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-coopera-web-design-12.png"
-                  alt="">
+                <div class="tech-icons">
+                  <span class="tech-badge">OpenAI</span>
+                  <span class="tech-badge">Azure OpenAI</span>
+                  <span class="tech-badge">RAG</span>
+                  <span class="tech-badge">LLMs</span>
+                </div>
               </div>
             </div>
           </div>
+
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+                <span class="ico-circle"><i class="bi bi-cloud-arrow-up"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Database</h2>
+                <h2 class="s-title">Cloud & DevOps</h2>
                 <p class="s-description text-center">
-                  Leveraging my knowledge of SQL and NoSQL databases, including MySQL, PostgreSQL, MongoDB, and Redis, I
-                  design scalable architectures that meet the specific needs of businesses.
+                  Deploying scalable applications on AWS with services like API Gateway, S3, DynamoDB. Experience with Docker containerization and cloud infrastructure management.
                 </p>
-                <img id="imagehereshow2" src="https://icon-library.com/images/sql-icon/sql-icon-16.jpg" alt="">
-                <img id="imagehereshow"
-                  src="http://blog.toright.com/wp-content/uploads/2014/08/mongo-db-alternate-logo.png" alt="">
-                <img id="imagehereshow" src="https://docs.pivotal.io/images/icon_redis_cf@2x.png" alt="">
+                <div class="tech-icons">
+                  <span class="tech-badge">AWS</span>
+                  <span class="tech-badge">Azure</span>
+                  <span class="tech-badge">Docker</span>
+                  <span class="tech-badge">API Gateway</span>
+                </div>
               </div>
             </div>
           </div>
+
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+                <span class="ico-circle"><i class="bi bi-database"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
+                <h2 class="s-title">Database Management</h2>
                 <p class="s-description text-center">
-                  Leveraging the latest front-end technologies, such as HTML5, CSS3, and media queries, I create fluid
-                  and flexible layouts that adjust dynamically to fit various viewport sizes.
+                  Proficient in designing and optimizing SQL and NoSQL databases including PostgreSQL, MongoDB, MySQL with focus on performance and scalability.
                 </p>
-                <img id="imagehereshow" src="https://cdn3.iconfinder.com/data/icons/flat-rounded-5/50/462-512.png"
-                  alt="">
-                <img id="imagehereshow" src="https://www.freeiconspng.com/thumbs/responsive-icon/responsive-icon-23.png"
-                  alt="">
+                <div class="tech-icons">
+                  <span class="tech-badge">PostgreSQL</span>
+                  <span class="tech-badge">MongoDB</span>
+                  <span class="tech-badge">MySQL</span>
+                  <span class="tech-badge">Redis</span>
+                </div>
               </div>
             </div>
           </div>
+
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+                <span class="ico-circle"><i class="bi bi-window-stack"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Languages</h2>
+                <h2 class="s-title">Frontend Development</h2>
                 <p class="s-description text-center">
-                  JavaScript is the backbone of interactivity on the web, and I am well-versed in using it to create
-                  dynamic functionality, from form validation to implementing APIs and asynchronous operations.
+                  Modern frontend development with React.js, Next.js, TypeScript creating responsive, interactive user interfaces with optimal performance and user experience.
                 </p>
-                <img id="imagehereshow" src="https://www.oxagile.com/wp-content/uploads/2013/04/blog-html5-logo.png"
-                  alt="">
-                <img id="imagehereshow"
-                  src="https://www.citypng.com/public/uploads/small/11662224253u0qcnoti0uetzzinoqmx1oesnv82scad0jxrpaf7qtnzmrfn3czcwmckaoc79jypauwuk2uof0dcdf2hgnudywoi3rbjjouna9nc.png"
-                  alt="">
-                <img id="imagehereshow"
-                  src="https://www.citypng.com/public/uploads/small/11662226392uom4gsi9ddb1c81ipfx2u4imargvwq7uskhdui1pj4f6xufjz0jkfzqzduhjuifts0dzcnykgszw6isfutq2nlwb51ef4gm0dt8d.png"
-                  alt="">
+                <div class="tech-icons">
+                  <span class="tech-badge">React.js</span>
+                  <span class="tech-badge">Next.js</span>
+                  <span class="tech-badge">TypeScript</span>
+                  <span class="tech-badge">JavaScript</span>
+                </div>
               </div>
             </div>
           </div>
+
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+                <span class="ico-circle"><i class="bi bi-gear-wide-connected"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Framework</h2>
+                <h2 class="s-title">Enterprise Solutions</h2>
                 <p class="s-description text-center">
-                  React.js library for building user interfaces, while Node.js allows server-side JavaScript execution.
-                  Express is a minimalistic web application framework for Node.js.
+                  Specialized in Odoo ERP development, creating custom modules for CRM, inventory, manufacturing, accounting, and business process automation.
                 </p>
-                <img id="imagehereshow" src="https://tsigmjcet.in/img/react.png" alt="">
-                <img id="imagehereshow" src="https://devlewis.github.io/Portfolio/images/node-icon-real.png" alt="">
-                <img id="imagehereshow" src="https://hackersandslackers-cdn.storage.googleapis.com/2020/05/express.png"
-                  alt="">
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">RESTful API Testing</h2>
-                <p class="s-description text-center">
-                  RESTful API testing is crucial for ensuring API functionality. Tools like Postman and ThunderClient
-                  simplify testing, making it efficient and reliable request.
-                </p>
-                <img id="imagehereshow" src="https://blog.postman.com/wp-content/uploads/2018/04/logo-mark.png" alt="">
-                <img id="imagehereshow"
-                  src="https://raw.githubusercontent.com/rangav/thunder-client-support/master/images/thunder-icon.png"
-                  alt="">
-                <img id="imagehereshow" src="https://pic.onlinewebfonts.com/svg/img_178343.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Socket Programming</h2>
-                <p class="s-description text-center">
-                  Socket programming enables real-time communication between clients and servers. It's ideal for
-                  building chat applications, allowing instant messaging and seamless interactions.
-                </p>
-                <img id="imagehereshow" src="http://cdn.onlinewebfonts.com/svg/img_226983.png" alt="">
-                <img id="imagehereshow"
-                  src="https://www.pinclipart.com/picdir/big/408-4088995_communication-icon-transparent-transparent-communication-clipart-png-download.png"
-                  alt="">
-                <img id="imagehereshow" src="https://clipground.com/images/protocol-clipart-9.jpg" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Tools </h2>
-                <p class="s-description text-center">
-                  Tools like Canva provide an intuitive platform for graphic design, allowing users to create stunning
-                  visual. Git commands, on the other hand, facilitate version control in software development,
-                </p>
-                <img id="imagehereshow" src="https://cdn2.iconfinder.com/data/icons/ballicons-2-free/100/wrench-512.png"
-                  alt="">
-                <img id="imagehereshow" src="https://freelogopng.com/images/all_img/1656733637logo-canva-png.png"
-                  alt="">
-                <img id="imagehereshow" src="http://pngimg.com/uploads/github/github_PNG67.png" alt="">
+                <div class="tech-icons">
+                  <span class="tech-badge">Odoo</span>
+                  <span class="tech-badge">ERP</span>
+                  <span class="tech-badge">OWL</span>
+                  <span class="tech-badge">Business Logic</span>
+                </div>
               </div>
             </div>
           </div>
@@ -333,53 +313,102 @@
     <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
+        <div class="row counters-grid g-4 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-3">
             <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
+                <span class="ico-circle"><i class="bi bi-code-slash"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="210" data-purecounter-duration="3"
-                  class="counter purecounter"></p><span>+</span>
-                <span class="counter-text">
-                  Web Application</span>
+                <div class="counter-value">
+                  <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="3"
+                    class="counter purecounter">0</span><span class="counter-plus">+</span>
+                </div>
+                <span class="counter-text">Odoo Modules Developed</span>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-lg-3">
+          <div class="col-6 col-md-4 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                <span class="ico-circle"><i class="bi bi-calendar-check"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="1300" data-purecounter-duration="3"
-                  class="counter purecounter"> </p><span>+</span>
-                <span class="counter-text">HOURS CODING EXPERIENCE</span>
+                <div class="counter-value">
+                  <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="3"
+                    class="counter purecounter">0</span><span class="counter-plus">+</span>
+                </div>
+                <span class="counter-text">Years Experience</span>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-lg-3">
+          <div class="col-6 col-md-4 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
+                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="850" data-purecounter-duration="3"
-                  class="counter purecounter"></p><span>+</span>
-                <span class="counter-text">SOLVED DSA QUESTION'S</span>
+                <div class="counter-value">
+                  <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="3"
+                    class="counter purecounter">0</span><span class="counter-plus">+</span>
+                </div>
+                <span class="counter-text">Enterprise Projects</span>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-lg-3">
+          <div class="col-6 col-md-4 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
                 <span class="ico-circle"><i class="bi bi-award"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="3"
-                  class="counter purecounter"></p><span>+</span>
-                <span class="counter-text">ACHIVEMENTS</span>
+                <div class="counter-value">
+                  <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="3"
+                    class="counter purecounter">0</span><span class="counter-plus">+</span>
+                </div>
+                <span class="counter-text">Major Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 offset-lg-1">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-window-stack"></i></span>
+              </div>
+              <div class="counter-num">
+                <div class="counter-value">
+                  <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="3"
+                    class="counter purecounter">0</span><span class="counter-plus">+</span>
+                </div>
+                <span class="counter-text">Web Application</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-clock-history"></i></span>
+              </div>
+              <div class="counter-num">
+                <div class="counter-value">
+                  <span data-purecounter-start="0" data-purecounter-end="8000" data-purecounter-duration="3"
+                    class="counter purecounter">0</span><span class="counter-plus">+</span>
+                </div>
+                <span class="counter-text">Coding Hours</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-puzzle"></i></span>
+              </div>
+              <div class="counter-num">
+                <div class="counter-value">
+                  <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="3"
+                    class="counter purecounter">0</span><span class="counter-plus">+</span>
+                </div>
+                <span class="counter-text">DSA Questions Solved</span>
               </div>
             </div>
           </div>
@@ -393,7 +422,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
+              <h3 class="title-a" style="color: #E0DDCF;">
                 ACHIVEMENTS
               </h3>
               <p class="subtitle-a">
@@ -553,58 +582,117 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <!-- ======= Experience Section ======= -->
+    <section id="experience" class="paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/test-1.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">PRASAD LOKHANDE (UI Lead @grass)</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead" style="text-align: center;">
-                        We are highly impressed with the work delivered by you. It's top-notch and perfectly aligns with
-                        our requirements. Great job !!
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/test-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">SHERLY SINGH (Web Developer)</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead" style="text-align: center;">
-                        "It was a pleasure working with you, Attention to detail and commitment to excellence it was a
-                        great experience me"
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-              </div>
-              <div class="swiper-pagination"></div>
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a" style="color: #E0DDCF;">
+                Professional Experience
+              </h3>
+              <p class="subtitle-a">
+                Building scalable solutions and driving innovation through technology
+              </p>
+              <div class="line-mf"></div>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="experience-timeline">
+              
+              <!-- Current Position -->
+              <div class="timeline-item">
+                <div class="timeline-date">
+                  <span class="badge bg-primary">July 2025 - Present</span>
+                </div>
+                <div class="timeline-content">
+                  <h4>Senior Software Engineer</h4>
+                  <h6 class="company-name">BrainerHub Solutions, Ahmedabad</h6>
+                  <p class="experience-description">
+                    Leading the development of Monk-Odoo, a comprehensive enterprise ERP solution by building 50+ custom modules for e-commerce, CRM, manufacturing, and subscription management.
+                  </p>
+                  <div class="experience-achievements">
+                    <h6>Key Contributions:</h6>
+                    <ul>
+                      <li>Developed 20+ Odoo modules across Sales, CRM, Inventory, Manufacturing, Accounting</li>
+                      <li>Integrated third-party services: Google Drive, Google Docs, Metals.dev, REST APIs</li>
+                      <li>Implemented OAuth2 and JWT authentication for secure external integrations</li>
+                      <li>Advanced pricing, subscription management, and automated billing processes</li>
+                    </ul>
+                  </div>
+                  <div class="tech-stack">
+                    <span class="tech-badge">Odoo</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                    <span class="tech-badge">REST APIs</span>
+                  </div>
+                </div>
+              </div>
 
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
+              <!-- Previous Position 1 -->
+              <div class="timeline-item">
+                <div class="timeline-date">
+                  <span class="badge bg-secondary">Aug 2023 - July 2025</span>
+                </div>
+                <div class="timeline-content">
+                  <h4>Software Engineer</h4>
+                  <h6 class="company-name">BrainerHub Solutions, Ahmedabad</h6>
+                  <p class="experience-description">
+                    Developed multiple AI-powered applications and enterprise solutions focusing on healthcare and business automation.
+                  </p>
+                  <div class="experience-achievements">
+                    <h6>Key Projects:</h6>
+                    <ul>
+                      <li><strong>DMA Reports:</strong> AI healthcare reporting platform with real-time transcription</li>
+                      <li><strong>Spinf:</strong> AI assistant platform with speech-to-text and LLM integration</li>
+                      <li><strong>GAIN:</strong> Data analytics and anomaly detection platform</li>
+                    </ul>
+                  </div>
+                  <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">FastAPI</span>
+                    <span class="tech-badge">React.js</span>
+                    <span class="tech-badge">AWS</span>
+                    <span class="tech-badge">Azure OpenAI</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Internship -->
+              <div class="timeline-item">
+                <div class="timeline-date">
+                  <span class="badge bg-info">Apr 2022 - Sep 2022</span>
+                </div>
+                <div class="timeline-content">
+                  <h4>Software Engineer - Intern</h4>
+                  <h6 class="company-name">InnoTech Solutions, Ch. sambhajinagar</h6>
+                  <p class="experience-description">
+                    Foundation experience in full-stack development, API integration, and backend services.
+                  </p>
+                  <div class="experience-achievements">
+                    <h6>Learning & Contributions:</h6>
+                    <ul>
+                      <li>Built and maintained RESTful APIs for frontend-backend communication</li>
+                      <li>Assisted in integrating third-party APIs and backend services</li>
+                      <li>Gained hands-on experience with web development best practices</li>
+                    </ul>
+                  </div>
+                  <div class="tech-stack">
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">REST APIs</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
-    </div><!-- End Testimonials Section -->
+    </section><!-- End Experience Section -->
 
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog-mf sect-pt4 route">
@@ -612,7 +700,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
+              <h3 class="title-a" style="color: #E0DDCF;">
                 PROJECT
               </h3>
               <p class="subtitle-a">
@@ -622,164 +710,216 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
+        <div class="row projects-grid g-4">
+          <!-- DMA Reports Project -->
+          <div class="col-lg-6 col-md-6">
+            <div class="card card-blog h-100">
               <div class="card-img">
-                <img src="assets/img/vp_pr1.jpg" alt="" class="img-fluid">
+                <div class="project-icon">
+                  <i class="bi bi-heart-pulse"></i>
+                </div>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">MYKAA</h6>
+                    <h6 class="category">Healthcare AI</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="https://resonant-marshmallow-41a182.netlify.app/"
-                    target="_blank">E-commerce website for
-                    fashion</a></h3>
+                <h3 class="card-title">DMA Reports</h3>
                 <p class="card-description">
-                  This is a fashion website which is clone of Nykaa. It is a responsive website which is mobile friendly
-                  as well. where user can buy products.
+                  AI-powered healthcare reporting platform with real-time medical transcription, NLP-driven report generation, and intelligent audio processing. HIPAA compliant with secure patient data management.
                 </p>
 
-                <p class="techstacks">
-                  <span class="onelemhe">HTML</span>
-                  <span class="onelemhe">CSS</span>
-                  <span class="onelemhe">JavaScript</span>
-                  <span class="onelemhe">NodeJS</span>
-                  <span class="onelemhe">MongoDB</span>
-                  <span class="onelemhe">ExpressJS</span>
-                  <span class="onelemhe">Mongoose</span>
-                  <span class="onelemhe">Redis</span>
-                  <span class="onelemhe">JWT</span>
-                  <span class="onelemhe">Hashing</span>
-                </p>
+                <div class="project-details">
+                  <p><strong>Duration:</strong> Nov 2023 – June 2024</p>
+                  <p><strong>Type:</strong> Enterprise Healthcare Solution</p>
+                </div>
 
-                <div class="btnforproj">
-                  <a href="https://github.com/vishalpadaswan3/slick-art-7157"
-                    target="_blank"><button>Github</button></a>
-                  <a href="https://resonant-marshmallow-41a182.netlify.app/" target="_blank"><button>Go
-                      Live</button></a>
+                <div class="tech-stack">
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">Odoo 16</span>
+                  <span class="tech-badge">PostgreSQL</span>
+                  <span class="tech-badge">Azure OpenAI</span>
+                  <span class="tech-badge">Deepgram</span>
+                </div>
+
+                <div class="project-highlights">
+                  <ul>
+                    <li>Real-time Speech-to-Text integration</li>
+                    <li>AI-driven medical report generation</li>
+                    <li>HIPAA compliance implementation</li>
+                    <li>Audio processing modules</li>
+                  </ul>
                 </div>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/up.png" alt="" class="avatar rounded-circle">
-                    <span class="author">Vishal Padaswan (Solo project)</span>
+                    <img src="assets/img/vishal_resume_photo.png" alt="" class="avatar rounded-circle">
+                    <span class="author">Enterprise Project</span>
                   </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 5 Days
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
+
+          <!-- Spinf AI Assistant -->
+          <div class="col-lg-6 col-md-6">
+            <div class="card card-blog h-100">
               <div class="card-img">
-                <img src="./assets/img/vp_pr2.jpg" alt="" class="img-fluid">
+                <div class="project-icon">
+                  <i class="bi bi-robot"></i>
+                </div>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">SmileSlot</h6>
+                    <h6 class="category">AI Assistant</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="https://smileslot.netlify.app/" target="_blank">Healthy Teeth Dentistry
-                  </a></h3>
+                <h3 class="card-title">Spinf AI Platform</h3>
                 <p class="card-description">
-                  Comprehensive dental care for all ages. Personalized treatment in a comfortable environment, ensuring
-                  healthy smiles and lasting satisfaction.
+                  AI-powered assistant platform providing real-time support during meetings and calls. Features speech-to-text conversion, contextual knowledge retrieval, and intelligent response generation using LLMs.
                 </p>
 
-                <p class="techstacks">
-                  <span class="onelemhe">System Design</span>
-                  <span class="onelemhe">HTML</span>
-                  <span class="onelemhe">CSS</span>
-                  <span class="onelemhe">JavaScript</span>
-                  <span class="onelemhe">NodeJS</span>
-                  <span class="onelemhe">MongoDB</span>
-                  <span class="onelemhe">ExpressJS</span>
-                  <span class="onelemhe">Mongoose</span>
-                  <span class="onelemhe">Redis</span>
-                  <span class="onelemhe">AWS</span>
-                </p>
+                <div class="project-details">
+                  <p><strong>Duration:</strong> Jan 2024 – Dec 2024</p>
+                  <p><strong>Type:</strong> AI Assistant Platform</p>
+                </div>
 
-                <div class="btnforproj">
-                  <a href="https://github.com/vishalpadaswan3/SmileSlot_Dentist"
-                    target="_blank"><button>Github</button></a>
-                  <a href="https://smileslot.netlify.app/" target="_blank"><button>Go
-                      Live</button></a>
+                <div class="tech-stack">
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">FastAPI</span>
+                  <span class="tech-badge">React.js</span>
+                  <span class="tech-badge">AWS</span>
+                  <span class="tech-badge">DynamoDB</span>
+                  <span class="tech-badge">LLMs</span>
+                </div>
+
+                <div class="project-highlights">
+                  <ul>
+                    <li>Real-time transcription services</li>
+                    <li>Knowledge management modules</li>
+                    <li>LLM-powered response generation</li>
+                    <li>AWS cloud infrastructure</li>
+                  </ul>
                 </div>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/up.png" alt="" class="avatar rounded-circle">
-                    <span class="author">Vishal Padaswan (Team Project)</span>
+                    <img src="assets/img/vishal_resume_photo.png" alt="" class="avatar rounded-circle">
+                    <span class="author">Lead Developer</span>
                   </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 6 Days
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
+
+          <!-- GAIN Analytics Platform -->
+          <div class="col-lg-6 col-md-6">
+            <div class="card card-blog h-100">
               <div class="card-img">
-                <img src="./assets/img/vp_pr3.jpg" alt="" class="img-fluid">
+                <div class="project-icon">
+                  <i class="bi bi-graph-up-arrow"></i>
+                </div>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">TypoTales</h6>
+                    <h6 class="category">Data Analytics</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="#" target="_blank">Speed Type Racer Challenge </a></h3>
+                <h3 class="card-title">GAIN Analytics</h3>
                 <p class="card-description">
-                  Comprehensive dental care for all ages. Personalized treatment in a comfortable environment, ensuring
-                  healthy smiles and lasting satisfaction.
+                  Scalable AI-powered data analytics and anomaly detection platform enabling organizations to monitor business metrics, identify anomalies, and automate alerting across multiple data sources.
                 </p>
 
-                <p class="techstacks">
-                  <span class="onelemhe">Socket</span>
-                  <span class="onelemhe">Web-Sockets</span>
-                  <span class="onelemhe">HTML</span>
-                  <span class="onelemhe">CSS</span>
-                  <span class="onelemhe">JavaScript</span>
-                  <span class="onelemhe">NodeJS</span>
-                  <span class="onelemhe">MongoDB</span>
-                  <span class="onelemhe">ExpressJS</span>
-                  <span class="onelemhe">JSON</span>
-                  <span class="onelemhe">Redis</span>
-                </p>
+                <div class="project-details">
+                  <p><strong>Duration:</strong> June 2024 – Jan 2025</p>
+                  <p><strong>Type:</strong> Analytics Platform</p>
+                </div>
 
-                <div class="btnforproj">
-                  <a href="https://github.com/vishalpadaswan3/fabulous-vest-203_Car"
-                    target="_blank"><button>Github</button></a>
-                  <a href="#" target="_blank"><button>Go
-                      Live</button></a>
+                <div class="tech-stack">
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">FastAPI</span>
+                  <span class="tech-badge">Next.js</span>
+                  <span class="tech-badge">PostgreSQL</span>
+                  <span class="tech-badge">Docker</span>
+                  <span class="tech-badge">Airbyte</span>
+                </div>
+
+                <div class="project-highlights">
+                  <ul>
+                    <li>Anomaly detection algorithms</li>
+                    <li>Real-time metrics monitoring</li>
+                    <li>Custom ETL pipelines</li>
+                    <li>Microservices architecture</li>
+                  </ul>
                 </div>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/up.png" alt="" class="avatar rounded-circle">
-                    <span class="author">Vishal Padaswan (Team Project)</span>
+                    <img src="assets/img/vishal_resume_photo.png" alt="" class="avatar rounded-circle">
+                    <span class="author">Backend Lead</span>
                   </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 5 Days
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Monk-Odoo ERP -->
+          <div class="col-lg-6 col-md-6">
+            <div class="card card-blog h-100">
+              <div class="card-img">
+                <div class="project-icon">
+                  <i class="bi bi-building-gear"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Enterprise ERP</h6>
+                  </div>
+                </div>
+                <h3 class="card-title">Monk-Odoo ERP</h3>
+                <p class="card-description">
+                  Comprehensive Odoo ERP solution with 50+ custom modules for e-commerce, CRM, manufacturing, subscription management, and business process automation across various industries.
+                </p>
 
+                <div class="project-details">
+                  <p><strong>Duration:</strong> July 2025 – Present</p>
+                  <p><strong>Type:</strong> Enterprise Solution</p>
+                </div>
 
+                <div class="tech-stack">
+                  <span class="tech-badge">Odoo</span>
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">PostgreSQL</span>
+                  <span class="tech-badge">OWL</span>
+                  <span class="tech-badge">REST APIs</span>
+                </div>
 
+                <div class="project-highlights">
+                  <ul>
+                    <li>50+ custom Odoo modules</li>
+                    <li>Third-party API integrations</li>
+                    <li>OAuth2 & JWT authentication</li>
+                    <li>Automated billing processes</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/vishal_resume_photo.png" alt="" class="avatar rounded-circle">
+                    <span class="author">Senior Developer</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section><!-- End Blog Section -->
@@ -787,23 +927,6 @@
 
     <!-- ======== Github section ===== -->
 
-    <section>
-      <div id="githubinfo">
-        <img id="git1"
-          src="https://github-readme-streak-stats.herokuapp.com?user=vishalpadaswan3&theme=ayu-mirage&border_radius=&card_width=517"
-          alt="GitHub Streak">
-
-        <img id="git3" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs"
-          alt="Anurag's GitHub stats">
-      </div>
-
-      <div class="calender">
-        here is calender
-        <!-- <img id="git2" src="https://github-readme-calendar.herokuapp.com/vishalpadaswan3" alt="GitHub Calendar"> -->
-
-      </div>
-
-    </section>
 
 
 
@@ -819,7 +942,7 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="title-box-2">
-                      <h5 class="title-left">
+                      <h5 class="title-left contact-title">
                         Send Message Us
                       </h5>
                     </div>
@@ -854,7 +977,7 @@
 
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" id="submit" class="button button-a button-big button-rouded">Send
+                            <button type="submit" id="submit" class="button button-a button-big button-rouded" style="background-color: #000; color: #fff;">Send
                               Message</button>
                           </div>
                         </div>
@@ -863,7 +986,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
+                      <h5 class="title-left contact-title">
                         Get in Touch
                       </h5>
                     </div>
@@ -873,8 +996,8 @@
                         an appointment, please don't hesitate to get in touch with me. Your smile is my priority ! 😇💟
                       </p>
                       <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> Chhatrapati Sambhajinagar, Maharashra, 431103</li>
-                        <li><span class="bi bi-phone"></span> 7887707330 / 9766480244</li>
+                        <li><span class="bi bi-geo-alt"></span> Kannad, Maharashtra - 431103</li>
+                        <li><span class="bi bi-phone"></span> +91 9766480244</li>
                         <li><span class="bi bi-envelope"></span> vishalpadaswan@gmail.com</li>
                       </ul>
                     </div>
